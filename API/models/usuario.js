@@ -12,7 +12,15 @@ const usuariosSchema = new Schema({
         trim: true
     },
 
+    fecha: {
+        type: String,
+        trim: true
+    },
 
+    hora:{
+        type: String,
+        trim: true,
+    },
 
     
 });
